@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
+  "name": "@facetdata/react-scripts",
   "version": "3.4.1",
-  "description": "Configuration and scripts for Create React App.",
+  "description": "Customized react-scripts for Facet.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/facetdata/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": "^10.12.0 || >=12.0.0"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/facetdata/create-react-app/issues"
   },
   "files": [
     "bin",
@@ -30,6 +30,7 @@
   "dependencies": {
     "@babel/core": "7.10.5",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.1",
+    "@sentry/webpack-plugin": "^1.12.1",
     "@svgr/webpack": "5.4.0",
     "@typescript-eslint/eslint-plugin": "^3.3.0",
     "@typescript-eslint/parser": "^3.3.0",
